@@ -18,11 +18,6 @@
 <html lang="en">
 <link rel="portfolio" href="manifest.json">
 <head>
-    <script>
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('sw.js');
-        }
-      </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A portfolio template that uses Material Design Lite.">
@@ -206,5 +201,10 @@
     </div>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
+  <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+        }
+      </script>
 
 </html>
